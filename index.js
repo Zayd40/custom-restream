@@ -1,4 +1,3 @@
-
 const NodeMediaServer = require('node-media-server');
 const express = require('express');
 
@@ -44,5 +43,6 @@ nms.run();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
 app.get('/', (req,res)=>res.send("Restream server running"));
 app.listen(PORT, ()=>console.log("Healthcheck on", PORT));

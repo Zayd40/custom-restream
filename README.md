@@ -1,3 +1,2 @@
-
-# Restream Server (YouTube + TikTok + Instagram)
-Upload this to Github then deploy on Railway.
+# Restream server (YouTube + TikTok + Instagram)
+Upload to GitHub and deploy to Railway.
