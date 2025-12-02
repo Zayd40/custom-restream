@@ -22,7 +22,7 @@ const config = {
       {
         app: 'live',
         mode: 'push',
-        edge: `rtmp://a.rtmp.youtube.com/live2/${process.env.YT_KEY}`,
+        edge: `rtmp://a.rtmp.youtube.com/live2${process.env.YT_KEY}`,
         name: 'youtube',
         appendName: false,
       },
@@ -38,7 +38,7 @@ const config = {
       {
         app: 'live',
         mode: 'push',
-        edge: `rtmps://live-upload.instagram.com:443/rtmp/${process.env.INSTAGRAM_KEY}`,
+        edge: `rtmps://edgetee-upload-lhr8-1.xx.fbcdn.net:443/rtmp/${process.env.INSTAGRAM_KEY}`,
         name: 'instagram',
         appendName: false,
       },
