@@ -18,6 +18,9 @@ const config = {
   relay: {
     ffmpeg: '/usr/bin/ffmpeg',
     tasks: [
+      {
+        verbose : true,
+      },
       // YouTube Live
       {
         app: 'live',
